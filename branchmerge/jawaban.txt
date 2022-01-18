@@ -1,0 +1,28 @@
+1. The git clean is an undo command, which completes other commands 
+like git reset and git checkout
+
+2. -d : force delete
+   -f : force command
+
+3. git branch <name>
+
+4. In Git, to "fast forward" means to update the HEAD pointer in such a way 
+that its new value is a direct descendant of the prior value
+
+   Recursive Merge: In Recursive merge, after you branch and make some commit
+there are some new original commits on the "master". so, when its time to 
+merge, git recurses over the branch and creates a new merge commit
+
+5. git checkout
+
+6. git mv/rm <branch name>
+
+7. git branch -d <branch name>
+
+8. git diff : diff of what is changed but not yet committed
+
+9. git rm --cached <file name> 
+
+10. git cannot automaticlly determine what is correct. it only affect the dev
+conducting the merge
+
