@@ -1,0 +1,16 @@
+1. git reset : unstage a file while retaining the changes in working 
+	diroctory
+   git revert : is a commend we use when we want to take a previous commit 
+	and add it as a new commmit, keeping log intact
+
+2. git merge : merge the specified branch's history into the current one
+
+   git rebase : rebase means to move or combine a series of commits to a new
+	base commit
+
+3. git stash pop throws away the (topmost, by default) stash after applying 
+	it, whereas git stash apply leaves in the stash for possible later 
+	reuse
+
+4. editing, deleting, and squashing
+
